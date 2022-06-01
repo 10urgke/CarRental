@@ -10,4 +10,6 @@ public class Product:BaseEntity
     public Category Category { get; set; } //Navigation Property Producttan Categorye gidebiliriz.
     public ProductFeature ProductFeature { get; set; } //Navigation Property Producttan ProductFeaturea gidebiliriz. ALTININ SARI ÇİZGİ OLMASININ SEBEBİ NULL OLABİLİYOR OLMASI!!!
     
+    //EF Core buradaki adlandırmaları foreign key olarak algıladığı için ileride ProductConfigurations.csde özel olarak tanımlamaya gerek kalmıyor!!!!
+    
 }
