@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KqeL61GS/hpEIKIIyu9pkJDNePTk3SIDbxiXnLE/PntmaFGva53DLBqNtRuN51nYAx5l3b1WE4YN7Rb5Z6Ps+w==",
+  "dgSpecHash": "P55RUqKVeYhF3AAPfmCaJKdKkx1O1kwnqq921VKb9eOAUBIBhw1BXX5awqLNciuBzn2oVr7Vy40l4q5i7N22LA==",
   "success": true,
   "projectFilePath": "/Users/onurgokce/RiderProjects/NLayerAppv2/NLayer.Web/NLayer.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/onurgokce/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
+    "/Users/onurgokce/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/onurgokce/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/Users/onurgokce/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",
     "/Users/onurgokce/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",

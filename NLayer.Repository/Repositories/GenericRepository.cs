@@ -22,7 +22,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         return await _dbSet.FindAsync(id);
     }
 
-    public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+    public IQueryable<T> GetAll()
     {
         return _dbSet.AsNoTracking().AsQueryable(); //Asnotracking dememizin sebebi: EFCore çekmiş olduğu verileri memorye almayıp daha performanslı çalışmasını sağlar.
         
